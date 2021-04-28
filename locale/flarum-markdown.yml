@@ -18,3 +18,7 @@ flarum-markdown:
       ordered_list_tooltip: 新增有序列表
       quote_tooltip: 插入引用
       unordered_list_tooltip: 新增無序列表
+  admin:
+    settings:
+      mdarea_help: 'mdarea 是一個 textarea 實用程式，可以自動接續列表、自動格式化程式碼和幫助縮排。'
+      mdarea_label: '啟用 mdarea'
