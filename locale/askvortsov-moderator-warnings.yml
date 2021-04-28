@@ -44,3 +44,6 @@ askvortsov-moderator-warnings:
       private_comment_heading: <strong>{username}</strong> 為何收到警告？這個備註僅管理員可見。
       no_content_given: 內容不可留空
       submit_button: 儲存警告
+    validation:
+      invalid_strike_count: '計分範圍只能是 0 到 5 分。'
+      public_comment_required: 您必須填寫一個公開評論。
