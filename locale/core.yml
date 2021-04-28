@@ -17,6 +17,13 @@ core:
       temporary_text: "終有一天，在不遠的將來，此對話框將讓你輕鬆地新增延伸套件。如我們所說，我們將建立一套生態系統！"
       title: 新增延伸套件
 
+    advanced:
+      enter_positive_number: 請輸入一個正數
+      heading_security: 安全設定
+      help_text: 請注意這些設定僅適用於高級用戶
+      post_flood_interval: 發送多個貼文之間的等待時間
+      post_flood_interval_text: 配置用戶在創建另一條貼文之間必須等待的時間（以秒為單位）
+
     # These translations are used in the Appearance page.
     appearance:
       colored_header_label: 彩色頁眉
@@ -38,11 +45,15 @@ core:
       logo_heading: Logo
       logo_text: 上傳圖片做為論壇標題。
       submit_button: => core.ref.save_changes
+      title: 外觀
 
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: 預設語言
+      description: 設置論壇名稱、語言以及其他基礎設置
+      display_name_heading: 用戶外顯名稱
+      display_name_text: 選擇名稱的類型，默認為用戶名。
       forum_description_heading: 論壇說明 
       forum_description_text: 使用一到兩句話簡短描述論壇。這將會添加於 Meta 標籤中，並顯示於搜尋引擎結果中。
       forum_title_heading: 論壇名稱
@@ -50,13 +61,18 @@ core:
       home_page_text: "選擇一個頁面作為論壇首頁。"
       saved_message: 更改已儲存
       show_language_selector_label: 顯示語言選擇選單
+      slug_driver_heading: '別名驅動：{model}'
+      slug_driver_text: 選擇要用於此實體的驅動程式。
       submit_button: => core.ref.save_changes
+      title: 常規
       welcome_banner_heading: 歡迎橫幅
       welcome_banner_text: 橫幅文字將顯示於「全部貼文」頁面頂部，用以歡迎新到訪的遊客。
 
     # These translations are used in the Dashboard page.
     dashboard:
       clear_cache_button: 清除快取
+      description: 論壇資料一覽
+      title: 儀錶盤
       tools_button: 工具
 
     # These translations are used in the Edit Custom CSS modal dialog.
@@ -94,6 +110,7 @@ core:
     # These translations are used in the email page of the admin interface.
     email:
       addresses_heading: 地址
+      description: 配置郵件服務
       driver_heading: 選取驅動
       driver_label: 驅動
       encryption_label: 加密
@@ -114,10 +131,34 @@ core:
       mailgun_heading: Mailgun 設定
       mandrill_heading: Mandrill 設定
       not_sending_message: Flarum 未能傳送郵件，可能是由於驅動選擇或者配置錯誤所致
+      send_test_mail_button: 發送
+      send_test_mail_heading: 發送測試郵件
+      send_test_mail_success: 測試郵件發送成功！
+      send_test_mail_text: '使用上述設定發送測試郵件到您的郵箱：{email}'
       ses_heading: SES 設定
       smtp_heading: SMTP 設定
       submit_button: => core.ref.save_changes
       text: 配置用於發信的驅動、設置及地址。
+
+    extension:
+      configure_scopes: 設定範圍
+      confirm_uninstall: 此延伸套件的資料庫条目和檔案都將被移除，確定要繼續嗎？
+      disabled: 禁用
+      enable_to_see: 啟用延伸套件以查看或修改設置。
+      enabled: 啟用
+      info_links:
+        discuss: 貼文
+        documentation: 文檔
+        donate: 捐助
+        source: 原始碼
+        support: 支援
+        website: 網站
+      no_permissions: 此延伸套件無新增權限。
+      no_settings: 此延伸套件無設置項。
+      open_modal: 開啟設置
+      permissions_title: 權限
+      saved_message: 更改已存儲
+      uninstall_button: 移除
 
     # These translations are used in the Extensions page.
     extensions:
