@@ -5,14 +5,42 @@ fof-drafts:
   admin:
     permissions:
       start: 新增貼文草稿
+      schedule: 定時發佈
+    settings:
+      enable_scheduled_drafts: 啟用定時發佈
+      schedule_log_output: 保存計劃任務日誌
+      schedule_on_one_server: '將使用 onOneServer() 方法用於計劃任務（需要 Redis/Memcache）'
+      title: 'FoF 草稿箱'
+  console:
+    scheduled_drafts_disabled: 定時發佈功能已被禁用。
   forum:
     composer:
       title: 儲存草稿
       alert: 草稿已儲存
       exit_alert: 丟棄草稿變更？
+      saved: 已存儲！
+      saving: 正在保存……
+      discard_empty_draft_alert: 丟棄空草稿？
     dropdown:
-      empty_text: 你還沒有草稿
+      empty_text: 您還沒有草稿
       title: 草稿
       button: 刪除草稿
       tooltip: => fof-drafts.forum.dropdown.title
-      alert: 你確定要刪除草稿嗎？
+      alert: 您確定要刪除草稿嗎？
+      delete_all_alert: 您確定要刪除所有草稿嗎？
+      schedule_button: 定時發佈
+    schedule_draft_modal:
+      reschedule_button: 重新定時
+      schedule_button: 定時
+      scheduled_error: '發佈失敗：{error}。'
+      scheduled_text: '定時發佈於 {datetime}。'
+      text: 選擇一個未來的時間自動發佈！
+      title: 定時發佈
+      unschedule_button: 取消定時
+    user:
+      settings:
+        draft_autosave_enable: 自動存儲草稿
+        draft_autosave_interval_button: 更新頻率
+        draft_autosave_interval_invalid: 請輸入大於 4 的整數。
+        draft_autosave_interval_label: 自動存儲頻率（秒）
+        drafts_heading: 草稿箱
