@@ -12,3 +12,4 @@ fof-socialprofile:
       submit: 储存
       delete: 删除
       deletetitle: 删除按钮
+      save_disabled_fetching_favicons: 正在獲取一個或多個圖標，請稍候。
