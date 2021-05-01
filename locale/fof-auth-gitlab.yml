@@ -7,7 +7,12 @@ fof-auth-gitlab:
       client_id_label: Application ID
       client_secret_label: Secret
       title: FoF GitLab 登入
-
+    settings:
+      application_domain_heading: 'App 域名'
+      application_domain_text: '（可選）自託管用基本 URL（如 https://my.gitlab.example）'
+      client_id_heading: 'App ID'
+      client_secret_heading: Secret
+      title: 'FriendsOfFlarum GitLab 登入'
   forum:
     log_in:
       with_gitlab_button: 透過 GitLab 帳號登入
