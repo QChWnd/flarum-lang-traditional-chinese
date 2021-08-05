@@ -17,4 +17,4 @@ composer remove qchwnd/flarum-lang-traditional-chinese
 
 請我喝咖啡請見[這裡](https://github.com/QChWnd/QChWnd.GitHub.io/blob/master/Donate.md)。不勝感激。
 
-[原README](https://github.com/QChWnd/flarum-lang-traditional-chinese/blob/master/README.md.rst)
+[原README](https://github.com/QChWnd/flarum-lang-traditional-chinese/blob/master/README.rst.md)
